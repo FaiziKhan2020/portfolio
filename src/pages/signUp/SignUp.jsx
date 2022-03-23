@@ -1,8 +1,6 @@
 import React from "react";
-// import Image from "next/image";
-// import mypic from "/images/rocket.png";
-// import img from "next/image";
-import Sign from "../../components/SignComponent";
+
+import Sign from "../../components/SignComponent/SignComponent";
 const SignUp = () => {
   return (
     <>
