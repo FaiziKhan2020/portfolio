@@ -33,7 +33,7 @@ const signComponent = () => {
         {(formik) => (
           <div>
             <h1 className='my-4 font-weight-bold-display-4'>Sign up</h1>
-            {console.log(formik.values)}
+            {/* {console.log(formik.values)} */}
             <Form>
               <TextField
                 label='First Name'

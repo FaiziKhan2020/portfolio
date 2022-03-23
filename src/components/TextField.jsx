@@ -1,4 +1,5 @@
 import React from "react";
+
 import { ErrorMessage, useField } from "formik";
 const TextField = ({ label, placeholder, ...props }) => {
   const [field, meta] = useField(props);
@@ -21,7 +22,16 @@ const TextField = ({ label, placeholder, ...props }) => {
         {...field}
         {...props}
       />
-      <ErrorMessage className='mt-4' name={field.name} />
+      <div
+        style={{
+          color: "red",
+          fontSize: "12px",
+          marginTop: "-10px",
+          paddingBottom: "5px",
+        }}
+      >
+        <ErrorMessage name={field.name} />
+      </div>
     </div>
   );
 };
