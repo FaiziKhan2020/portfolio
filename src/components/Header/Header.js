@@ -24,14 +24,14 @@ const Header = () => (
           }}
         >
           <DiCssdeck size='3rem' />
-          <span style={{ fontSize: "2.5rem" }}>Porfolio</span>
+          <span style={{ fontSize: "2.5rem" }}>LOGO</span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href='#projects'>
-          <NavLink>Projects</NavLink>
+        <Link href='#services'>
+          <NavLink>Services</NavLink>
         </Link>
       </li>
       <li>

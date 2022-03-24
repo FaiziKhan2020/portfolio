@@ -12,7 +12,8 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br /> My Personal Portfolio
+        Open The Future
+        {/* <br /> My Personal Portfolio */}
       </SectionTitle>
       <SectionText>
         Lorem Ipsum is simply dummy text of the printing and typesetting
