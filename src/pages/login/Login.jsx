@@ -71,7 +71,7 @@ const Login = () => {
           justifyContent: "center",
           // alignItems: "center",
           textAlign: "center",
-          marginTop: "200px",
+          marginTop: "150px",
         }}
       >
         <div class='form-signin'>
