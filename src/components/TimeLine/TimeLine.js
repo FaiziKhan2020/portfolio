@@ -112,8 +112,8 @@ const Timeline = () => {
                         <stop stop-color='white' />
                         <stop
                           offset='0.79478'
-                          stop-color='white'
-                          stop-opacity='0'
+                          stopColor='white'
+                          stopOpacity='0'
                         />
                       </linearGradient>
                     </defs>

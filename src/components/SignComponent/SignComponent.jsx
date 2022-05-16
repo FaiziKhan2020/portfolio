@@ -5,7 +5,11 @@ import TextField from "./TextField";
 import * as Yup from "yup";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase";
+import { useRouter } from "next/router";
+
 const signComponent = () => {
+  const Router = useRouter();
+
   const [registerEmail, setRegisterEmail] = useState("");
   const [registerPassword, setRegisterPassword] = useState("");
   const validate = Yup.object({
@@ -30,6 +34,11 @@ const signComponent = () => {
         registerEmail,
         registerPassword
       );
+      {
+        Router.push({
+          pathname: "/",
+        });
+      }
       console.log(user);
     } catch (error) {
       console.log("i will apreciate you");

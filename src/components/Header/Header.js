@@ -24,48 +24,48 @@ const Header = () => (
           }}
         >
           <DiCssdeck size='3rem' />
-          <span style={{ fontSize: "2.5rem" }}>LOGO</span>
-        </a>
-      </Link>
-    </Div1>
+          <span style={{ fontSize: "2.5rem" }}> LOGO </span>{" "}
+        </a>{" "}
+      </Link>{" "}
+    </Div1>{" "}
     <Div2>
       <li>
         <Link href='#services'>
-          <NavLink>Services</NavLink>
-        </Link>
-      </li>
+          <NavLink> Services </NavLink>{" "}
+        </Link>{" "}
+      </li>{" "}
       <li>
         <Link href='#tech'>
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
+          <NavLink> Technologies </NavLink>{" "}
+        </Link>{" "}
+      </li>{" "}
       <li>
         <Link href='#about'>
-          <NavLink>About</NavLink>
-        </Link>
+          <NavLink> About </NavLink>{" "}
+        </Link>{" "}
       </li>{" "}
       <li>
         <Link href='/login/Login'>
-          <NavLink>Login</NavLink>
-        </Link>
-      </li>
+          <NavLink> Login </NavLink>{" "}
+        </Link>{" "}
+      </li>{" "}
       <li>
         <Link href='/signUp/SignUp'>
-          <NavLink>Sign up</NavLink>
-        </Link>
-      </li>
-    </Div2>
+          <NavLink> Sign up </NavLink>{" "}
+        </Link>{" "}
+      </li>{" "}
+    </Div2>{" "}
     <Div3>
       <SocialIcons href='#'>
         <AiFillGithub size='3rem' />
-      </SocialIcons>
+      </SocialIcons>{" "}
       <SocialIcons href='#'>
         <AiFillLinkedin size='3rem' />
-      </SocialIcons>
+      </SocialIcons>{" "}
       <SocialIcons href='#'>
         <AiFillInstagram size='3rem' />
-      </SocialIcons>
-    </Div3>
+      </SocialIcons>{" "}
+    </Div3>{" "}
   </Container>
 );
 
