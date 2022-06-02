@@ -36,7 +36,7 @@ const signComponent = () => {
       );
       {
         Router.push({
-          pathname: "/",
+          pathname: "/login/Login",
         });
       }
       console.log(user);
