@@ -15,48 +15,48 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href='/'>
+      {/* <Link href='/'>
         <a>
           <img src='/images/logo_1.png' alt='logo' width={250} height={50} />
         </a>
-      </Link>
+      </Link> */}
     </Div1>
     <Div2 style={{ padding: "10px" }}>
       <li>
-        <Link href='#services'>
+        <Link href="#services">
           <NavLink> Services </NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#tech'>
+        <Link href="#tech">
           <NavLink> Technologies </NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#about'>
+        <Link href="#about">
           <NavLink> About </NavLink>
         </Link>
       </li>
       <li>
-        <Link href='/login/Login'>
+        <Link href="#">
           <NavLink> Login </NavLink>
         </Link>
       </li>
       <li>
-        <Link href='/signUp/SignUp'>
+        <Link href="#">
           <NavLink> Sign up </NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='#'>
-        <AiFillGithub size='3rem' />
+      <SocialIcons href="#">
+        <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href='#'>
-        <AiFillLinkedin size='3rem' />
+      <SocialIcons href="#">
+        <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href='#'>
-        <AiFillInstagram size='3rem' />
+      <SocialIcons href="#">
+        <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
