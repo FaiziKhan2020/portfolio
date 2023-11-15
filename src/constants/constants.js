@@ -1,8 +1,7 @@
 export const projects = [
   {
-    title: "Digital Marketing",
-    description:
-      "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum optio saepe repellat minima esse? Ex, possimus. Dicta eos reiciendis quam tenetur quae tempora laborum ut, dignissimos cum quibusdam aliquam.",
+    title: "Web Development",
+    description: "  ...",
     image: "/images/1.png",
     // tags: ["Mongo", "Express", "React", "Node"],
     source: "https://google.com",
@@ -11,34 +10,14 @@ export const projects = [
   },
   {
     title: "Software Development",
-    description:
-      "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum optio saepe repellat minima esse? Ex, possimus. Dicta eos reiciendis quam tenetur quae tempora laborum ut, dignissimos cum quibusdam aliquam..",
-    image: "/images/4.png",
+    description: "    ..",
+    image: "/images/2.png",
     // tags: ["React", "JavaScript"],
     source: "https://google.com",
     visit: "https://google.com",
     id: 1,
   },
-  {
-    title: "Web Development",
-    description:
-      "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum optio saepe repellat minima esse? Ex, possimus. Dicta eos reiciendis quam tenetur quae tempora laborum ut, dignissimos cum quibusdam aliquam..",
-    image: "/images/3.png",
-    // tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
-  },
-  {
-    title: "App Development",
-    description:
-      "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum optio saepe repellat minima esse? Ex, possimus. Dicta eos reiciendis quam tenetur quae tempora laborum ut, dignissimos cum quibusdam aliquam..",
-    image: "/images/3.png",
-    // tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
-  },
+
   // {
   //   title: "Unichat",
   //   description:

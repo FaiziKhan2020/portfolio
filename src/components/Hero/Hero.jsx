@@ -16,8 +16,13 @@ const Hero = (props) => (
         Muhammad Usman {/* <br /> My Personal Portfolio */}{" "}
       </SectionTitle>{" "}
       <SectionText>A Full Stack Developer </SectionText>{" "}
-      <Button onClick={() => (window.location = "www.google.com")}>
-        Download CV{" "}
+      <Button
+        onClick={() =>
+          (window.location.href =
+            "https://drive.google.com/file/d/12kmNLqV17aG6H0iWuwfDZkp4Ry2ndp_L/view?usp=sharing")
+        }
+      >
+        E-Book{" "}
       </Button>{" "}
     </LeftSection>{" "}
   </Section>
